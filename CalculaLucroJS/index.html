@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<title>
+			Calculadora de Lucro JS
+		</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+		<div id="titulo">
+			<h1>Calculadora de Lucro</h1>
+		</div>
+
+		<div id="img">
+			<img src="imagens/image01.png" alt="porcentagem">
+		</div>
+
+		<form id="form" name="frmLucro">
+			<input type="text" placeholder="Valor de compra" class="inserir" name="txtCompra">
+			<input type="text" placeholder="Valor de venda" class="inserir" name="txtVenda">
+			<input type="button" value="Calcular lucro" class="btn" onclick="lucro()">
+			<input type="reset" value="Limpar" class="btn btn-limpar" onclick="limpar()">
+		</form>
+
+		<div id="resultado">&nbsp;</div>
+
+	<script src="js/lucro.js"></script>	
+	</body>
+</html>
